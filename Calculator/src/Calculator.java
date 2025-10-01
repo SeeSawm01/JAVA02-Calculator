@@ -22,22 +22,26 @@ public class Calculator {
     }
 
     public int multiply(){
-//        result = num1 * num2;
-//        return result;
-        result = 0; //2.대안
-        for (int i = 0; i < num2; i++)
-            result += num1; // 1.이 방식은 result 초기화가 안되있어서 문제 발생
-        return result; //3.대안 작성하면 이것도 작성해야함
+        result = num1 * num2;
+        return result;
+//        result = 0; //2.대안
+//        for (int i = 0; i < num2; i++)
+//            result += num1; // 1.이 방식은 result 초기화가 안되있어서 문제 발생
+//        return result; //3.대안 작성하면 이것도 작성해야함
     }
 
-    public float divide(){
-        result = 0;
-        int temp = num1;
-        for (int i = 0; temp >= num2; i++) {
-            temp -= num2;
-            result = i + 1;
-        }
+    public float divide() {
+        result = num1 / num2;
         return result;
+
+
+//        result = 0;
+//        int temp = num1;
+//        for (int i = 0; temp >= num2; i++) {
+//            temp -= num2;
+//            result = i + 1;
+//        }
+//        return result;
     }
 
     public void displayResult(String operator){
