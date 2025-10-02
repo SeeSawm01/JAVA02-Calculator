@@ -30,7 +30,7 @@ public class Calculator {
 //        return result; //3.대안 작성하면 이것도 작성해야함
     }
 
-    public float divide() {
+    public int divide() {
         result = num1 / num2;
         return result;
 
