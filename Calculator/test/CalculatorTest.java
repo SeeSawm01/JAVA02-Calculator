@@ -6,7 +6,7 @@ class CalculatorTest {
     //테스트 대상은 add() 랑 {} 안에 넣으면 됨
     void add() {
         //테스트 Class 를 사용할려면 객체를 받아와야함. Test랑 다른 클래스이기 때문에 1. 객체생성
-        Calculator calc = new Calculator();
+        Calculator calc = new Calculator(); //객체 선언
         calc.setNumbers(10, 20); //입력 메소드 테스트할때는 메인에서 넣은 값과 다른 값을 넣어주는게 좋음
         assertEquals(30, calc.add()); //앞의 내용은 테스트에서만 사용하는 용어. 30과 calc.add가 같냐고 물어봄
     }
