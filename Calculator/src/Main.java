@@ -28,5 +28,12 @@ public class Main {
 //        calc_div.setNumbers(10, 2);
 //        calc_div.divide();
 //        calc_div.displayResult("/");
+
+        ScientificCalculator sci_calc = new ScientificCalculator();
+
+        sci_calc.setNumbers(3, 2); // 3^2
+        sci_calc.power(); // power() 실행
+        sci_calc.displayResult("^");
     }
+
 }
