@@ -30,10 +30,16 @@ public class Main {
 //        calc_div.displayResult("/");
 
         ScientificCalculator sci_calc = new ScientificCalculator();
+        ScientificCalculator sci_calc2 = new ScientificCalculator();
 
         sci_calc.setNumbers(3, 2); // 3^2
         sci_calc.power(); // power() 실행
         sci_calc.displayResult("^");
+
+        sci_calc2.setNumbers(16, 0);
+        sci_calc2.sqrt();
+        sci_calc2.displayResult("의 제곱근은");
+
     }
 
 }
